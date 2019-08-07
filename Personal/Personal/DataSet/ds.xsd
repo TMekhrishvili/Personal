@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet" msprop:Generator_UserDSName="DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt" msprop:Generator_TableClassName="dtDataTable" msprop:Generator_TableVarName="tabledt" msprop:Generator_RowChangedName="dtRowChanged" msprop:Generator_TablePropName="dt" msprop:Generator_RowDeletingName="dtRowDeleting" msprop:Generator_RowChangingName="dtRowChanging" msprop:Generator_RowEvHandlerName="dtRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRowDeleted" msprop:Generator_RowClassName="dtRow" msprop:Generator_UserTableName="dt" msprop:Generator_RowEvArgName="dtRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="FatherName" msprop:Generator_ColumnVarNameInTable="columnFatherName" msprop:Generator_ColumnPropNameInRow="FatherName" msprop:Generator_ColumnPropNameInTable="FatherNameColumn" msprop:Generator_UserColumnName="FatherName" type="xs:string" minOccurs="0" />
+              <xs:element name="MilitaryUnit" msprop:Generator_ColumnVarNameInTable="columnMilitaryUnit" msprop:Generator_ColumnPropNameInRow="MilitaryUnit" msprop:Generator_ColumnPropNameInTable="MilitaryUnitColumn" msprop:Generator_UserColumnName="MilitaryUnit" type="xs:string" minOccurs="0" />
+              <xs:element name="MilitaryRank" msprop:Generator_ColumnVarNameInTable="columnMilitaryRank" msprop:Generator_ColumnPropNameInRow="MilitaryRank" msprop:Generator_ColumnPropNameInTable="MilitaryRankColumn" msprop:Generator_UserColumnName="MilitaryRank" type="xs:string" minOccurs="0" />
+              <xs:element name="Diagnosis" msprop:Generator_ColumnVarNameInTable="columnDiagnosis" msprop:Generator_ColumnPropNameInRow="Diagnosis" msprop:Generator_ColumnPropNameInTable="DiagnosisColumn" msprop:Generator_UserColumnName="Diagnosis" type="xs:string" minOccurs="0" />
+              <xs:element name="DOB" msprop:Generator_ColumnVarNameInTable="columnDOB" msprop:Generator_ColumnPropNameInRow="DOB" msprop:Generator_ColumnPropNameInTable="DOBColumn" msprop:Generator_UserColumnName="DOB" type="xs:string" minOccurs="0" />
+              <xs:element name="DOMilitary" msprop:Generator_ColumnVarNameInTable="columnDOMilitary" msprop:Generator_ColumnPropNameInRow="DOMilitary" msprop:Generator_ColumnPropNameInTable="DOMilitaryColumn" msprop:Generator_UserColumnName="DOMilitary" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckByMinistry" msprop:Generator_ColumnVarNameInTable="columnCheckByMinistry" msprop:Generator_ColumnPropNameInRow="CheckByMinistry" msprop:Generator_ColumnPropNameInTable="CheckByMinistryColumn" msprop:Generator_UserColumnName="CheckByMinistry" type="xs:string" minOccurs="0" />
+              <xs:element name="DoctorComment" msprop:Generator_ColumnVarNameInTable="columnDoctorComment" msprop:Generator_ColumnPropNameInRow="DoctorComment" msprop:Generator_ColumnPropNameInTable="DoctorCommentColumn" msprop:Generator_UserColumnName="DoctorComment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
